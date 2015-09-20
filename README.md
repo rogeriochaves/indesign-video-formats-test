@@ -8,8 +8,10 @@ O arquivo final ficou com apenas 76kb, e no Adobe Reader ficou assim:
 
 ![Vídeo no PDF](/screenshots/mac-adobe-reader.gif)
 
-Já em epub o resultado foi mais legal. Um problema é que a exportação padrão do InDesign remove os vídeos externos ao gerar o arquivo, tive que reinseri-lo direto no código fonte do epub.
+Já em epub o resultado foi mais legal. Um problema é que a exportação padrão do InDesign remove os vídeos externos ao gerar o arquivo, tive que reinseri-lo direto no código fonte do epub, pra isso tive que abrir o arquivo epub, editar e depois fechar de novo.
 
 Mas o arquivo final ficou com apenas 75kb, e rodou perfeitamente no iBooks do Mac:
 
 ![Vídeo em epub](/screenshots/mac-ibooks.gif)
+
+Porém ainda preciso testar se funciona no iPad e no Android, não tenho como fazer isso.
