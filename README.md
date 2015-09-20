@@ -5,10 +5,11 @@ Fiz alguns testes com texto e vídeo simples no InDesign pra ver como ele se com
 Com PDF não ficou muito legal, o vídeo só funciona se você abrir o PDF no Adobe Reader, e tiver o Flash Player instalado. O vídeo simplesmente não aparece no PDF se abrir ele com o Chrome ou o leitor de PDF padrão do Mac.
 
 O arquivo final ficou com apenas 76kb, e no Adobe Reader ficou assim:
-![Vídeo no PDF](https://i.gyazo.com/f89a90deb28dd965846fdc5952c9d57d.gif)
+
+![Vídeo no PDF](/screenshots/mac-adobe-reader.gif)
 
 Já em epub o resultado foi mais legal. Um problema é que a exportação padrão do InDesign remove os vídeos externos ao gerar o arquivo, tive que reinseri-lo direto no código fonte do epub.
 
 Mas o arquivo final ficou com apenas 75kb, e rodou perfeitamente no iBooks do Mac:
-![Vídeo em epub](https://i.gyazo.com/ae0a5fea3e742ba3e31738452c527959.gif)
 
+![Vídeo em epub](/screenshots/mac-ibooks.gif)
