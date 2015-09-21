@@ -18,12 +18,13 @@
 	</metadata>
 	<manifest>
 		<item id="cover" href="cover.xhtml" media-type="application/xhtml+xml" />
-		<item id="book" href="book.xhtml" media-type="application/xhtml+xml" />
+		<item id="book" href="book.xhtml" media-type="application/xhtml+xml" properties="remote-resources" />
 		<item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml" />
 		<item id="idGeneratedStyles.css" href="css/idGeneratedStyles.css" media-type="text/css" />
 		<item id="MinionPro-Regular.otf" href="font/MinionPro-Regular.otf" media-type="application/vnd.ms-opentype" />
 		<item id="x1.png" href="image/1.png" media-type="image/png" />
 		<item id="x2.jpg" href="image/2.jpg" media-type="image/jpeg" />
+		<item id="vid" href="http://clappr.io/highline.mp4" media-type="video/mp4"  />
 	</manifest>
 	<spine toc="ncx">
 		<itemref idref="cover" linear="no" />

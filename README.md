@@ -12,6 +12,13 @@ Já em epub o resultado foi mais legal. Um problema é que a exportação padrã
 
 Mas o arquivo final ficou com apenas 75kb, e rodou perfeitamente no iBooks do Mac:
 
-![Vídeo em epub](/screenshots/mac-ibooks.gif)
+![Vídeo em epub no Mac](/screenshots/mac-ibooks.gif)
 
-Porém ainda preciso testar se funciona no iPad e no Android, não tenho como fazer isso.
+Porém, quando fui rodar no iBooks do iOS, o vídeo não abria, então descobri que estava faltando uma propriedade no XML de metadados do epub, pra funcionar direito, temos que colocar uma propriedade sendo mais explícitos que os vídeos são externos. Liz Castro explica melhor [neste post](http://www.pigsgourdsandwikis.com/2013/05/linking-to-external-video-and-audio-in.html)
+
+E agora sim, funcionou perfeitamente também no iPhone:
+
+<img alt="Vídeo em epub no iPhone" src="/screenshots/iphone-ibooks1.png" width="320" />
+<img alt="Vídeo em epub no iPhone" src="/screenshots/iphone-ibooks2.png" width="320" />
+
+Ainda preciso testar se funciona no Android, não tenho como fazer isso.
